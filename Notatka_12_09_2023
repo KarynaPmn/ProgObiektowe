@@ -1,0 +1,48 @@
+$ git clone https:
+
+
+
+// sprawdzenie czy jest zainstalowane
+$ ls 
+
+
+
+cd (nazwa repozytorium) - wejście do plilu
+
+// Dod. plik
+touch test.txt
+
+// Dod. do pliku
+echo "Nowy plik na serwerze" > test.txt 
+
+// Otwiera plik
+cat test.txt
+
+dir
+
+clear
+
+git status
+
+git add
+
+git commit -m "dodanie nowego pliku"
+
+// wysyła na gita
+git push
+
+history
+
+$ git config --global user.name "KarynaPomin"
+$ git config --global user.email "karinkapomin@gmail.com"
+
+mkdir lekcja_1
+
+// Jak dodać do gita
+   1  git add *
+   2  git commit -m "Dodano"
+   3  git push
+
+
+
+
