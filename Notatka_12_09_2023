@@ -1,11 +1,9 @@
+// Ctrl + V --> 
 $ git clone https:
-
-
 
 // sprawdzenie czy jest zainstalowane
 $ ls 
-
-
+$ ls -la
 
 cd (nazwa repozytorium) - wejście do plilu
 
