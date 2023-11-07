@@ -1,0 +1,70 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+
+namespace _07_11_2023
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+            // Inicjlizacja tablicy podczas jej deklaracji
+            int[] tabInt = { 1, 2, 3, 4, 5, 6 };
+            Console.WriteLine(tabInt[0]); //1
+            Console.WriteLine(tabInt[tabInt.Length - 1]); //6
+
+            // Deklaracja tablicy
+            int[] tabInt2 = new int[5];
+            tabInt2[0] = 1;
+            tabInt2[1] = 2;
+            tabInt2[3] = 2;
+
+            foreach (int i in tabInt2)
+                Console.Write(i + " ");
+
+            // Napisz program, który pobiera od użytkownika 5 liczb całkowitych i zapisuje je w tablicy.
+            // Następnie program wyświetla sumę wszystkich elementów tablicy.
+            // W celu zabezpieczenia programu przed niepoprawnymi danymi wejściowymi, użyliśmy metody int.TryParse(),
+            // która pozwala na sprawdzenie, czy wprowadzona wartość jest liczbą całkowitą.
+            // Jeśli użytkownik wprowadzi niepoprawną wartość, program wyświetli stosowny komunikat i poprosi o ponowne wprowadzenie liczby.
+
+            int[] T = new int[5];
+            int sumaT = 0;
+
+            for (int i = 0; i < T.Length; i++)
+            {
+                Console.Write("Podaj liczbę całkowitą: ");
+                string input = Console.ReadLine();
+                if (int.TryParse(input, out int number))
+                    T[i] = number;
+                else
+                {
+                    Console.WriteLine("Niepoprawne dane. Podaj liczbę całkowitą.");
+                    i--;
+                }
+            }
+            foreach (int i in T)
+                sumaT += i;
+            Console.WriteLine($"Suma tablicy wynosi: {sumaT}");
+            
+            */
+            // Wyświetl na ekranie komunikat, który prosi użytkownika o podanie kolejnej liczby całkowitej i użyj metody GetIntegerFromUser(), aby ją pobrać i zweryfikować.
+            //Zdefiniuj metodę GetIntegerFromUser(), która przyjmuje od użytkownika liczbę całkowitą i zwraca ją.
+            //Jeśli użytkownik wprowadzi niepoprawną wartość, metoda wyświetli stosowny komunikat i poprosi o ponowne wprowadzenie liczby.
+            //Użyj metody int.TryParse(), aby sprawdzić, czy wprowadzona wartość jest poprawną liczbą całkowitą i przypisać ją do zmiennej input.
+            //Zdefiniuj metodę CalculateSum(int[] numbers), która przyjmuje tablicę liczb całkowitych i zwraca ich sumę.
+            //Użyj pętli foreach, aby dodać do sumy każdy element tablicy numbers i zwrócić sumę.
+            //Wywołaj metodę CalculateSum(numbers) i przypisz jej wynik do zmiennej sum.
+            //Wyświetl na ekranie komunikat, który pokazuje sumę podanych liczb.
+
+           //...
+
+            Console.ReadKey();
+        }
+    }
+}
