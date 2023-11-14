@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace project_14_11_2023
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //funkcja statyczna, która pozwala wprowadzić rozmiar tablicy i nazwę CreateArray()
+            //funkcja statyczna, która ustawia elementy tablicy SetArray()
+            //funkcja statyczna, która wyświetla zawartość tablicy DisplayArray()
+            try
+            {
+                string nameT = "Karr";
+                var T = CreateArray(nameT);
+
+                SetArray(T, nameT);
+                DisplayArray(T);
+                
+            }
+            catch (OverflowException)
+            { Console.WriteLine("Liczba podana poza zakresem int."); }
+            catch (FormatException)
+            { Console.WriteLine("Niepoprawna podana forma danych. Podaj liczbę załkowitą."); }
+            catch (Exception ex)
+            { Console.WriteLine("BŁĄD: " + ex.Message); }
+
+            
+            Console.ReadKey();
+        }
+
+        public static int[] CreateArray(string name)
+        {
+            Console.Write($"Podaj rozmiar tablicy {name}: ");
+            int sizeT = int.Parse(Console.ReadLine());
+            if (sizeT <= 0)
+                throw new ArgumentException("Rozmiar tablicy musi być dodatni.");
+            int[] array = new int[sizeT];
+            return array;
+        }
+
+        public static void SetArray(int[] array, string name)
+        {
+            Console.WriteLine("\nPadaj elementy tablicy {0}:", name);
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.Write($"array[{i}] = ");
+                array[i] = int.Parse(Console.ReadLine());
+            }
+        }
+
+        public static void DisplayArray(int[] T) 
+        {
+            Console.WriteLine("\n ZAWARTOŚĆ TABLICY:");
+            for (int i = 0; i < T.Length; i++)
+                Console.WriteLine($"array[{i}] = {T[i]}");         
+        }
+
+    }
+
+}
