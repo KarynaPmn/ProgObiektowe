@@ -1,0 +1,2 @@
+C:\T19\Obiektowka\KarynaPomin_g2.cs\KarynaPomin_g2.cs\obj\Debug\KarynaPomin_g2.cs.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\KarynaPomin_g2.cs\KarynaPomin_g2.cs\obj\Debug\KarynaPomin_g2.cs.csproj.CoreCompileInputs.cache
