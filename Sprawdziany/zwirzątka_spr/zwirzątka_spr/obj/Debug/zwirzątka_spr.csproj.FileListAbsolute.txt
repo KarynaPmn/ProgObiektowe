@@ -1,0 +1,7 @@
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\bin\Debug\zwirzątka_spr.exe.config
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\bin\Debug\zwirzątka_spr.exe
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\bin\Debug\zwirzątka_spr.pdb
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\obj\Debug\zwirzątka_spr.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\obj\Debug\zwirzątka_spr.csproj.CoreCompileInputs.cache
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\obj\Debug\zwirzątka_spr.exe
+C:\T19\Obiektowka\zwirzątka_spr\zwirzątka_spr\obj\Debug\zwirzątka_spr.pdb

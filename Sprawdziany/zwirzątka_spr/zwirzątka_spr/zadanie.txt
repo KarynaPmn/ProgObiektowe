@@ -1,0 +1,20 @@
+GRUPA 2
+
+1. Utwórz klasê Animal, która bêdzie zawieraæ nastêpuj¹ce pola: string Name, string 
+Species, string Color, ushort Age, float Weight, Person Owner.
+
+2. Dodaj do klasy Animal metodê GetInfo(), która zwróci ³añcuch znaków zawieraj¹cy 
+informacje o zwierzêciu i jego w³aœcicielu w formacie: Imiê: ………, gatunek: ………, 
+kolor: …., wiek: {Age} lat(a), waga: {Weight} kg, w³aœciciel: …………(imiê). 
+………….(nazwisko), data urodzenia: ……………………
+
+3. Utwórz klasê Person z w³aœciwoœciami imiê ,nazwisko, data urodzenia, imiona_zwierz¹t 
+(lista)
+
+4. Napisz metodê wyœwietlaj¹c¹ imiona zwierz¹t nale¿¹cych do w³aœciciela
+
+5. Dodaj pole do zwierzêcia, które bêdzie zawiera³o 5 cech charakterystycznych dla 
+danego gatunku, które nastêpnie bêdzie mo¿na wybraæ przypisuj¹c je do zwierzêcia. 
+Zmodyfikuj metodê GetInfo()
+
+6. Przetestuj w programie dzia³anie klas, wykorzystaj wszystkie w³aœciwoœci oraz metody

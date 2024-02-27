@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zwirzątka_spr", "zwirzątka_spr\zwirzątka_spr.csproj", "{63A9F86E-07D8-4FCD-9773-F13593E375C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63A9F86E-07D8-4FCD-9773-F13593E375C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A9F86E-07D8-4FCD-9773-F13593E375C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A9F86E-07D8-4FCD-9773-F13593E375C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A9F86E-07D8-4FCD-9773-F13593E375C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A5619AA-EE98-4AAC-9C5E-0B6E155A77A7}
+	EndGlobalSection
+EndGlobal
