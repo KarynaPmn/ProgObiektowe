@@ -1,0 +1,7 @@
+C:\T19\Obiektowka\konstruktor\konstruktor\bin\Debug\konstruktor.exe.config
+C:\T19\Obiektowka\konstruktor\konstruktor\bin\Debug\konstruktor.exe
+C:\T19\Obiektowka\konstruktor\konstruktor\bin\Debug\konstruktor.pdb
+C:\T19\Obiektowka\konstruktor\konstruktor\obj\Debug\konstruktor.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\konstruktor\konstruktor\obj\Debug\konstruktor.csproj.CoreCompileInputs.cache
+C:\T19\Obiektowka\konstruktor\konstruktor\obj\Debug\konstruktor.exe
+C:\T19\Obiektowka\konstruktor\konstruktor\obj\Debug\konstruktor.pdb
