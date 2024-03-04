@@ -1,0 +1,7 @@
+C:\T19\Obiektowka\parking_krt\parking_krt\obj\Debug\parking_krt.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\parking_krt\parking_krt\obj\Debug\parking_krt.csproj.CoreCompileInputs.cache
+C:\T19\Obiektowka\parking_krt\parking_krt\bin\Debug\parking_krt.exe.config
+C:\T19\Obiektowka\parking_krt\parking_krt\bin\Debug\parking_krt.exe
+C:\T19\Obiektowka\parking_krt\parking_krt\bin\Debug\parking_krt.pdb
+C:\T19\Obiektowka\parking_krt\parking_krt\obj\Debug\parking_krt.exe
+C:\T19\Obiektowka\parking_krt\parking_krt\obj\Debug\parking_krt.pdb
