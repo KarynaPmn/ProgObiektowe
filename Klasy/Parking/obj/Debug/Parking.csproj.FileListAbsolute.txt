@@ -1,7 +1,0 @@
-C:\T19\Obiektowka\Parking\Parking\obj\Debug\Parking.csproj.AssemblyReference.cache
-C:\T19\Obiektowka\Parking\Parking\obj\Debug\Parking.csproj.CoreCompileInputs.cache
-C:\T19\Obiektowka\Parking\Parking\bin\Debug\Parking.exe.config
-C:\T19\Obiektowka\Parking\Parking\bin\Debug\Parking.exe
-C:\T19\Obiektowka\Parking\Parking\bin\Debug\Parking.pdb
-C:\T19\Obiektowka\Parking\Parking\obj\Debug\Parking.exe
-C:\T19\Obiektowka\Parking\Parking\obj\Debug\Parking.pdb
