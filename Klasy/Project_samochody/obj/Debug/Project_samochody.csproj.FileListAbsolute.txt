@@ -1,0 +1,7 @@
+C:\T19\Obiektowka\Project_samochody\Project_samochody\bin\Debug\Project_samochody.exe.config
+C:\T19\Obiektowka\Project_samochody\Project_samochody\bin\Debug\Project_samochody.exe
+C:\T19\Obiektowka\Project_samochody\Project_samochody\bin\Debug\Project_samochody.pdb
+C:\T19\Obiektowka\Project_samochody\Project_samochody\obj\Debug\Project_samochody.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\Project_samochody\Project_samochody\obj\Debug\Project_samochody.csproj.CoreCompileInputs.cache
+C:\T19\Obiektowka\Project_samochody\Project_samochody\obj\Debug\Project_samochody.exe
+C:\T19\Obiektowka\Project_samochody\Project_samochody\obj\Debug\Project_samochody.pdb
