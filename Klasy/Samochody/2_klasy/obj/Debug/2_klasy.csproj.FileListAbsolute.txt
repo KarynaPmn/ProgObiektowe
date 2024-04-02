@@ -1,0 +1,10 @@
+C:\T19\Obiektowka\2_klasy\2_klasy\bin\Debug\2_klasy.exe.config
+C:\T19\Obiektowka\2_klasy\2_klasy\bin\Debug\2_klasy.exe
+C:\T19\Obiektowka\2_klasy\2_klasy\bin\Debug\2_klasy.pdb
+C:\T19\Obiektowka\2_klasy\2_klasy\bin\Debug\Newtonsoft.Json.dll
+C:\T19\Obiektowka\2_klasy\2_klasy\bin\Debug\Newtonsoft.Json.xml
+C:\T19\Obiektowka\2_klasy\2_klasy\obj\Debug\2_klasy.csproj.AssemblyReference.cache
+C:\T19\Obiektowka\2_klasy\2_klasy\obj\Debug\2_klasy.csproj.CoreCompileInputs.cache
+C:\T19\Obiektowka\2_klasy\2_klasy\obj\Debug\2_klasy.csproj.Up2Date
+C:\T19\Obiektowka\2_klasy\2_klasy\obj\Debug\2_klasy.exe
+C:\T19\Obiektowka\2_klasy\2_klasy\obj\Debug\2_klasy.pdb
