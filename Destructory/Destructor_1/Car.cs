@@ -13,7 +13,7 @@ namespace Destructory_1.Classes
             this.speed = speed;
         }
 
-        Car() 
+        ~Car() 
         {
             Console.WriteLine($"Samochód {name} został zniszczony.");
         }
