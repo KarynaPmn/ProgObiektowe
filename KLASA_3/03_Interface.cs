@@ -9,22 +9,46 @@ namespace Interface
     public interface IAnimal
     {
         void MakeSound();
+
+        void Eat();
     }
 
-    public class Dog : IAnimal
+    public abstract class Animal : IAnimal
     {
-        public void MakeSound() 
+        public string Name { get; set; }
+        public int Age { get; set; }    
+        public Animal(string name, int age)
+        {
+            Name = name;
+            Age = age;
+        }
+
+        public abstract void MakeSound();
+        public void Eat()
+        {
+            Console.WriteLine($"{Name} je");
+        }
+    }
+
+    public class Dog : Animal
+    {
+        public Dog(string name, int age) : base(name, age) { }
+        public override void MakeSound()
         {
             Console.WriteLine("Gau!");
         }
+
+        public override void Eat();
     }
 
-    public class Cat : IAnimal
+    public class Cat : Animal
     {
-        public void MakeSound()
+        public Cat(string name, int age) : base(name, age) { }
+        public override void MakeSound()
         {
             Console.WriteLine("Miau!");
         }
+
     }
     internal class Program
     {
