@@ -22,6 +22,7 @@
 // - Sortowanie według daty publikacji.
 // - Sortowanie według autora.
 // - Sortowanie według ceny nierosnąco a następnie według roku od najstarszej książki.
+// - Sortowanie, które najpierw sortuje książki według ceny malejąco, następnie według roku publikacji rosnąco, a na końcu według autora alfabetycznie.
 
 
 using System;
@@ -90,6 +91,12 @@ namespace Interface
             foreach (Book book in sortedByAuthor)
                 Console.WriteLine(book.ToString());
 
+            // ThenBy
+            Console.WriteLine("\nSortowanie według ceny nierosnąco a następnie według roku od najstarszej książki.");
+            var sortedByPriceAndYear = books.OrderByDescending(book => book.price).ThenBy(book => book.yearOfPublication);
+            foreach (Book book in sortedByPriceAndYear)
+                Console.WriteLine(book.ToString());
+            
             Console.ReadKey();
         }
     }
