@@ -18,6 +18,11 @@
 //   używając metod OrderBy, OrderByDescending i ThenBy z przestrzeni nazw
 //   System.Linq. Wyświetl posortowane listy na konsoli, używając metody ToString() klasy
 //   Book.
+// - Sortowanie według ceny.
+// - Sortowanie według daty publikacji.
+// - Sortowanie według autora.
+// - Sortowanie według ceny nierosnąco a następnie według roku od najstarszej książki.
+
 
 using System;
 using System.Collections.Generic;
