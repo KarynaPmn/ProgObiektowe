@@ -165,6 +165,8 @@ namespace zdarzenia_1
                     {
                         Console.Clear();
                         Console.WriteLine($"Zapisz jako: {username}");
+                        Console.WriteLine("\nWybierz opcję: ");
+                        // dokończyć
                     }
                 }
 
