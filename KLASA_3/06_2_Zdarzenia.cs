@@ -131,7 +131,8 @@ namespace zdarzenia_1
                 PasswordManager.SavePassword("normalUser", "pass");
                 PasswordManager.SavePassword("xyz", "pass");
 
-                while (true)
+                bool ExitProgram = false;
+                while (!ExitProgram)
                 {
                     Console.Write("\nWprowadź nazwę użytkownika:");
                     string username = Console.ReadLine();
