@@ -4,9 +4,8 @@ using System.Security.Cryptography;
 using System.Text;
 using System.IO;
 using System.Linq;
-using System.Security.AccessControl;
 
-namespace zdarzenia_1
+namespace ConsoleApp2
 {
     internal class Program
     {
@@ -22,7 +21,7 @@ namespace zdarzenia_1
             Read,
             Write,
             Delete,
-            ManageUser
+            ManageUsers
         }
 
         public class User
@@ -52,11 +51,11 @@ namespace zdarzenia_1
             public RBAC()
             {
                 _rolePermissions = new Dictionary<Role, List<Permission>>
-                {
-                  { Role.Administrator, new List<Permission> { Permission.Read, Permission.Write, Permission.Delete, Permission.ManageUser } },
-                  { Role.Manager, new List<Permission> { Permission.Read, Permission.Write } },
-                  { Role.User, new List<Permission> { Permission.Read } },
-                };
+        {
+          { Role.Administrator, new List<Permission> { Permission.Read, Permission.Write, Permission.Delete, Permission.ManageUsers } },
+          { Role.Manager, new List<Permission> { Permission.Read, Permission.Write } },
+          { Role.User, new List<Permission> { Permission.Read } },
+        };
             }
 
             public bool HasPermission(User user, Permission permission)
@@ -124,22 +123,25 @@ namespace zdarzenia_1
             }
             static void Main(string[] args)
             {
-                PasswordManager.PasswordVerified += (User, success) => Console.WriteLine($"Logowanie użytkownika {User}: {(success ? "udane" : "nieudane")}");
+                PasswordManager.PasswordVerified += (username, success) => Console.WriteLine($"Logowanie użytkownika {username}: {(success ? "udane" : "nieudane")}");
 
                 PasswordManager.SavePassword("admin", "pass");
                 PasswordManager.SavePassword("manager", "pass");
                 PasswordManager.SavePassword("normalUser", "pass");
                 PasswordManager.SavePassword("xyz", "pass");
 
-                bool ExitProgram = false;
-                while (!ExitProgram)
+                bool exitProgram = false;
+
+                while (!exitProgram)
                 {
+                    Console.Clear();
+                    Console.WriteLine("=== System logowania ===");
+
                     Console.Write("\nWprowadź nazwę użytkownika:");
                     string username = Console.ReadLine();
 
                     Console.Write("\nWprowadź hasło:");
                     string password = Console.ReadLine();
-                    Console.WriteLine();
 
                     if (!PasswordManager.VerifyPassword(username, password))
                     {
@@ -150,12 +152,9 @@ namespace zdarzenia_1
 
                     var user = new User(username);
 
-                    if (username == "admin")
-                        user.AddRole(Role.Administrator);
-                    else if (username == "manager")
-                        user.AddRole(Role.Manager);
-                    else if (username == "normalUser")
-                        user.AddRole(Role.User);
+                    if (username == "admin") user.AddRole(Role.Administrator);
+                    else if (username == "manager") user.AddRole(Role.Manager);
+                    else if (username == "normalUser") user.AddRole(Role.User);
 
                     var rbacSystem = new RBAC();
                     string filePath = "testFile.txt";
@@ -164,18 +163,26 @@ namespace zdarzenia_1
                     while (!logout)
                     {
                         Console.Clear();
-                        Console.WriteLine($"Zapisz jako: {username}");
-                        Console.WriteLine("\nWybierz opcję: ");
-                        // dokończyć
+                        Console.WriteLine($"Zalogowano jako: {username}");
+                        Console.WriteLine("\nWybierz opcję:");
+                        //dokończyć
                     }
                 }
 
-                //Console.WriteLine("\nSprawdzanie dostępu do różnych zasobów:");
-                //Console.WriteLine("Read: " + rbacSystem.HasPermission(user, Permission.Read));
-                //Console.WriteLine("Write: " + rbacSystem.HasPermission(user, Permission.Write));
-                //Console.WriteLine("Delete: " + rbacSystem.HasPermission(user, Permission.Delete));
 
-                Console.ReadKey();
+
+
+
+
+
+
+
+
+
+                /*Console.WriteLine("\nSprawdzanie dostępu do różnych zasobów:");
+                Console.WriteLine("Read: " + rbacSystem.HasPermission(user, Permission.Read));
+                Console.WriteLine("Write: " + rbacSystem.HasPermission(user, Permission.Write));
+                Console.WriteLine("Delete: " + rbacSystem.HasPermission(user, Permission.Delete));*/
             }
         }
     }
