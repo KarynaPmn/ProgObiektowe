@@ -1,0 +1,61 @@
+[LOG 26.11.2025 22:48:48] OPEN
+[LOG ERROR 26.11.2025 22:49:09] Invalid email format.
+[LOG 26.11.2025 22:49:22] Registered new reader - Dino Angel - dino.angel@heaven.com
+[LOG ERROR 26.11.2025 22:49:29] Incorrect choice of reader.
+[LOG ERROR 26.11.2025 22:49:45] Invalid title.
+[LOG ERROR 26.11.2025 22:49:55] Invalid author name.
+[LOG ERROR 26.11.2025 22:50:12] Invalid description.
+[LOG ERROR 26.11.2025 22:50:14] Invalid description.
+[LOG 26.11.2025 22:50:29] Add new book: "Heaven's Secret" - Vicky Walker (fantasy)
+[LOG 26.11.2025 22:50:52] Add new reservation: | | "Heaven's Secret" - Vicky Walker
+[LOG 26.11.2025 22:51:34] Add new reservation: | | "Iron Flame" - Rebecca Yarros
+[LOG 26.11.2025 22:51:45] Add new reservation: | | "Nemesis" - Jo Nesbø
+[LOG 26.11.2025 22:52:00] Add new reservation: | | "The Snowman" - Jo Nesbø
+[LOG 26.11.2025 22:52:09] Add new reservation: | | "The Cruel King" - Rina Kent
+[LOG ERROR 26.11.2025 22:53:43] Incorrect choice in menu
+[LOG 26.11.2025 22:53:50] Remove reader: Dino Angel - dino.angel@heaven.com | Removed reservations: 2
+[LOG 26.11.2025 22:54:41] CLOSE
+[LOG 26.11.2025 22:58:47] OPEN
+[LOG 26.11.2025 22:59:04] Add new reservation: | | "Fourth Wing" - Rebecca Yarros
+[LOG 26.11.2025 22:59:13] Add new reservation: | | "Macbeth" - Jo Nesbø
+[LOG 26.11.2025 22:59:18] Add new reservation: | | "The Cruel King" - Rina Kent
+[LOG 26.11.2025 22:59:24] Add new reservation: | | "Nemesis" - Jo Nesbø
+[LOG 26.11.2025 22:59:59] Remove a reservation - "Macbeth" - Jo Nesbø [Returned: 26.11.2025 22:59:59]
+[LOG 26.11.2025 23:00:13] Remove reader: Farley King - farley234@gmail.com | Removed reservations: 2
+[LOG 26.11.2025 23:00:44] CLOSE
+[LOG 27.11.2025 10:19:27] OPEN
+[LOG 4.12.2025 08:06:10] OPEN
+[LOG ERROR 4.12.2025 08:06:16] Incorrect choice in menu
+[LOG ERROR 4.12.2025 08:06:23] Invalid name.
+[LOG ERROR 4.12.2025 08:06:26] Invalid name.
+[LOG ERROR 4.12.2025 08:06:35] Invalid email format.
+[LOG 4.12.2025 08:06:39] Registered new reader - Caleb Summers - sdesf@de.ds
+[LOG ERROR 4.12.2025 08:06:51] Invalid title.
+[LOG ERROR 4.12.2025 08:06:57] Invalid author name.
+[LOG ERROR 4.12.2025 08:07:00] Invalid author name.
+[LOG ERROR 4.12.2025 08:07:17] Invalid date format.
+[LOG 4.12.2025 08:07:22] Add new book: "Title" - Ded EWwde
+[LOG ERROR 4.12.2025 08:07:42] Incorrect choice of index in list of readers.
+[LOG 4.12.2025 08:07:47] Add new reservation: | | "Fourth Wing" - Rebecca Yarros
+[LOG 4.12.2025 08:08:01] Add new reservation: | | "The Cruel King" - Rina Kent
+[LOG 4.12.2025 08:08:10] Add new reservation: | | "Macbeth" - Jo Nesbø
+[LOG 4.12.2025 08:08:39] Add new reservation: | | "Iron Flame" - Rebecca Yarros
+[LOG 4.12.2025 08:08:55] Remove a reservation - "Macbeth" - Jo Nesbø [Returned: 4.12.2025 08:08:55]
+[LOG 4.12.2025 08:09:17] Remove reader: Caleb Summers - sdesf@de.ds | Removed reservations: 2
+[LOG 4.12.2025 08:09:44] CLOSE
+[LOG 4.12.2025 10:43:43] OPEN
+[LOG 4.12.2025 10:45:48] OPEN
+[LOG ERROR 4.12.2025 10:45:57] Invalid name.
+[LOG 4.12.2025 10:51:14] OPEN
+[LOG ERROR 4.12.2025 10:51:27] Invalid name.
+[LOG ERROR 4.12.2025 10:51:30] Invalid name.
+[LOG ERROR 4.12.2025 10:51:37] Invalid email format.
+[LOG 4.12.2025 10:51:43] Registered new reader - Anna Nowak - anna@dd.ss
+[LOG 4.12.2025 10:52:06] Remove reader: Caleb Summers - caleb.summers@gmail.com | Removed reservations: 0
+[LOG ERROR 4.12.2025 10:52:11] Invalid title.
+[LOG ERROR 4.12.2025 10:52:15] Invalid author name.
+[LOG ERROR 4.12.2025 10:52:38] Invalid date format.
+[LOG 4.12.2025 10:53:05] Add new book: "Titlr" - Sss Wsdds
+[LOG 4.12.2025 10:53:19] Add new reservation: | | "Fourth Wing" - Rebecca Yarros
+[LOG 4.12.2025 10:53:58] Remove reader: Farley King - farley234@gmail.com | Removed reservations: 1
+[LOG 4.12.2025 10:54:10] CLOSE
